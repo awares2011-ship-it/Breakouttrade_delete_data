@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Privacy Policy - Breakout Trade</title>
+  <title>Data Deletion - Breakout Trade</title>
   <style>
     :root {
       --bg: #f3f6fb;
@@ -11,6 +11,7 @@
       --text: #172033;
       --muted: #667085;
       --primary: #7257ff;
+      --danger: #e53935;
       --accent: #13b889;
       --line: #e3e9f3;
     }
@@ -30,10 +31,10 @@
     .header {
       position: sticky;
       top: 0;
-      z-index: 10;
       background: rgba(255, 255, 255, 0.96);
       border-bottom: 1px solid var(--line);
       backdrop-filter: blur(12px);
+      z-index: 10;
     }
 
     .header-inner {
@@ -87,18 +88,17 @@
 
     .hero {
       padding: 24px;
-      background: linear-gradient(135deg, #ffffff, #f5f1ff 48%, #eafaf5);
+      background: linear-gradient(135deg, #ffffff, #fff4f4 48%, #ecfff8);
     }
 
     .badge {
       display: inline-block;
       padding: 6px 12px;
       border-radius: 999px;
-      background: var(--primary);
+      background: var(--danger);
       color: #ffffff;
       font-size: 12px;
       font-weight: 700;
-      letter-spacing: 0.02em;
     }
 
     .hero h2 {
@@ -118,8 +118,8 @@
 
     h3 {
       margin: 0 0 10px;
-      font-size: 20px;
       color: var(--primary);
+      font-size: 20px;
     }
 
     p,
@@ -128,14 +128,24 @@
       font-size: 16px;
     }
 
-    ul {
+    ul,
+    ol {
       margin-top: 8px;
       padding-left: 22px;
     }
 
-    .contact {
-      border-left: 4px solid var(--accent);
-      padding-left: 14px;
+    .email-box {
+      margin-top: 14px;
+      padding: 16px;
+      border-radius: 16px;
+      background: #f1f7ff;
+      border: 1px solid #d7e8ff;
+      word-break: break-word;
+    }
+
+    a {
+      color: var(--primary);
+      font-weight: 700;
     }
 
     @media (max-width: 640px) {
@@ -165,7 +175,7 @@
     <div class="header-inner">
       <a href="javascript:history.back()" class="back-btn" aria-label="Go back">&larr;</a>
       <div>
-        <h1 class="title">Privacy Policy</h1>
+        <h1 class="title">Data Deletion Request</h1>
         <p class="subtitle">Breakout Trade - Stocks Charts</p>
       </div>
     </div>
@@ -173,124 +183,68 @@
 
   <main class="container">
     <section class="hero">
-      <span class="badge">Effective Date: 19 May 2026</span>
-      <h2>Your privacy matters to Breakout Trade</h2>
+      <span class="badge">Account and Data Removal</span>
+      <h2>Request deletion of your Breakout Trade data</h2>
       <p>
-        This Privacy Policy explains how Breakout Trade collects, uses, and protects
-        information when you use our mobile application, website, chart education,
-        market news, calculators, and related services.
+        You can request deletion of personal data associated with your Breakout Trade
+        account or app usage. This page explains what to send and what will be deleted.
       </p>
     </section>
 
     <section class="card">
-      <h3>1. Information We Collect</h3>
-      <p>We may collect the following information when you use Breakout Trade:</p>
+      <h3>How to request data deletion</h3>
+      <p>
+        Send an email from your registered email address to our support team with the
+        subject line <strong>Delete My Breakout Trade Data</strong>.
+      </p>
+      <div class="email-box">
+        <strong>Email:</strong>
+        <a href="mailto:breakouttradeapp@gmail.com?subject=Delete%20My%20Breakout%20Trade%20Data">breakouttradeapp@gmail.com</a>
+      </div>
+    </section>
+
+    <section class="card">
+      <h3>Please include</h3>
       <ul>
-        <li>Name, phone number, and email address when submitted by you.</li>
-        <li>App usage data such as opened screens, chart categories, and feature interactions.</li>
-        <li>Device and diagnostic information used to improve stability and performance.</li>
-        <li>Advertising identifiers used by Google AdMob to show and measure ads.</li>
-        <li>Notification permission status and push notification tokens where applicable.</li>
+        <li>Your registered email address.</li>
+        <li>Your phone number, if you provided one in the app.</li>
+        <li>A short message confirming that you want your data deleted.</li>
       </ul>
     </section>
 
     <section class="card">
-      <h3>2. How We Use Information</h3>
-      <p>We use information to:</p>
+      <h3>What data may be deleted</h3>
       <ul>
-        <li>Provide chart education, market news, calculators, and app features.</li>
-        <li>Improve app performance, security, and user experience.</li>
-        <li>Send app updates, chart update notifications, and service messages.</li>
-        <li>Show ads and measure ad performance through Google AdMob.</li>
-        <li>Respond to support, account, and policy related queries.</li>
+        <li>Name, email address, and phone number provided by you.</li>
+        <li>Account records stored in Firebase Authentication or Realtime Database.</li>
+        <li>Watchlist or saved app data associated with your user account, where applicable.</li>
+        <li>Notification token or app-specific user records stored by Breakout Trade.</li>
       </ul>
     </section>
 
     <section class="card">
-      <h3>3. Advertising</h3>
+      <h3>What may be retained</h3>
       <p>
-        Breakout Trade uses Google AdMob and related Google services to display banner,
-        interstitial, and rewarded ads. Google may collect device identifiers, approximate
-        location, interaction data, and diagnostic data as described in Google's policies.
-      </p>
-      <p>
-        You can learn more about how Google uses data here:
-        <a href="https://policies.google.com/technologies/partner-sites">Google Partner Sites Policy</a>.
+        Some records may be retained where required for security, fraud prevention,
+        legal compliance, payment dispute handling, tax/accounting obligations, or
+        legitimate business records. Retained records will be limited to what is
+        necessary and handled according to our Privacy Policy.
       </p>
     </section>
 
     <section class="card">
-      <h3>4. Firebase and Cloud Services</h3>
+      <h3>Processing time</h3>
       <p>
-        We may use Firebase services such as Realtime Database, Storage, Authentication,
-        Cloud Messaging, and analytics or diagnostic tools to operate the app. Data may be
-        processed on secure servers provided by Google Firebase.
+        We aim to process verified deletion requests within <strong>7 to 30 days</strong>.
+        We may contact you if additional verification is needed to protect your account.
       </p>
     </section>
 
     <section class="card">
-      <h3>5. Educational Purpose and Financial Disclaimer</h3>
+      <h3>Privacy Policy</h3>
       <p>
-        Breakout Trade provides chart examples, market information, learning material, and
-        calculators for educational and informational purposes only. We do not provide
-        investment, trading, legal, tax, or financial advice. Users should make independent
-        decisions and consult qualified professionals where required.
-      </p>
-    </section>
-
-    <section class="card">
-      <h3>6. Data Sharing</h3>
-      <p>
-        We do not sell your personal information. We may share limited data with trusted
-        service providers such as Google Firebase, Google AdMob, payment providers, and
-        analytics or notification services only as needed to operate and improve the app.
-      </p>
-    </section>
-
-    <section class="card">
-      <h3>7. Data Security</h3>
-      <p>
-        We use reasonable technical and organizational measures to protect user information.
-        However, no internet or mobile app transmission can be guaranteed to be completely
-        secure.
-      </p>
-    </section>
-
-    <section class="card">
-      <h3>8. Children's Privacy</h3>
-      <p>
-        Breakout Trade is not intended for children under the age of 13. We do not knowingly
-        collect personal information from children. If you believe a child has provided
-        personal information, please contact us so we can take appropriate action.
-      </p>
-    </section>
-
-    <section class="card">
-      <h3>9. Your Choices</h3>
-      <p>You may:</p>
-      <ul>
-        <li>Disable notifications from your device settings.</li>
-        <li>Reset or limit advertising identifiers from your device settings.</li>
-        <li>Contact us to request support regarding personal information you provided.</li>
-      </ul>
-    </section>
-
-    <section class="card">
-      <h3>10. Changes to This Policy</h3>
-      <p>
-        We may update this Privacy Policy from time to time. Updated versions will be posted
-        on this page with a revised effective date.
-      </p>
-    </section>
-
-    <section class="card contact">
-      <h3>11. Contact Us</h3>
-      <p>
-        If you have any questions about this Privacy Policy, contact us at:
-        <br />
-        <strong>Email:</strong> breakouttradeapp@gmail.com
-        <br />
-        <strong>Location:</strong> Pune, Maharashtra, India
+        You can read our Privacy Policy here:
+        <a href="./index.html">Privacy Policy</a>.
       </p>
     </section>
   </main>
